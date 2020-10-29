@@ -4,7 +4,7 @@ public class N3_8 {
         System.out.println(Task3(5,56,30,22)); //вызов метода 3
         System.out.println(Task4(5,6));//вызов метода 4
         Task5(10);// вызов метода 5
-        System.out.println(Task6(3));// вызов метод 6
+        System.out.println(Task6(3));// вызов метод 6.
         Task7("Илья");//выхов метод 7
         Task8(2012);// вызов метода 8
     }
