@@ -49,15 +49,26 @@ public class homeworkLesson2 {
 
     public static void squareArray(int arrLength) {
         int[][] arr = new int[arrLength][arrLength];
-        for (int i = 0; i < arrLength; i++) {
-            for (int j = 0; j < arrLength; j++) {
-                if (i == j) {
-                    arr[i][j] = 1;
-                } else {
-                    arr[i][j] = 0;
+//        for (int i = 0; i < arrLength; i++) {
+//            for (int j = 0; j < arrLength; j++) {
+//                if (i == j) {
+//                    arr[i][j] = 1;
+//                } else {
+//                    arr[i][j] = 0;
+//                }
+//                System.out.print(arr[i][j] + " ");
+//            }
+            for (int i = 0; i < arrLength; i++) {
+                for (int j = arrLength; j =0; j--) {
+                    if (true) {
+
+                    }
+                        arr[i][j-i] = 1;
+                    } else {
+                        arr[i][j] = 0;
+                    }
+                    System.out.print(arr[i][j] + " ");
                 }
-                System.out.print(arr[i][j] + " ");
-            }
             System.out.println();
 
         }
